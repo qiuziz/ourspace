@@ -19,7 +19,7 @@ export default {
     }
   },
   mounted() {
-    this.$http.get('/getImgList').then(res => {
+    this.$http.get('/api/getImgList').then(res => {
       this.imgArray = res.data;
     }, err => {
       console.log(err);

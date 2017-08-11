@@ -64,8 +64,6 @@ var staticPath = path.posix.join(config.dev.assetsPublicPath, config.dev.assetsS
 app.use(staticPath, express.static('./static'))
 
 
-// 获取七牛云存储的照片地址
-app.use('/getImgList', require('../server/getImgList'))
 
 var uri = 'http://localhost:' + port
 
