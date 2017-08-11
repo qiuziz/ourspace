@@ -47,6 +47,10 @@ li {
   margin: 0 10px;
 }
 
+img {
+  width: 90%;
+}
+
 a {
   color: #42b983;
 }
